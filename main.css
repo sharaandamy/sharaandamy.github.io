@@ -7,7 +7,7 @@ body {
 /*--- navigation bar ---*/
 
 .navbar {
-	background: #006400; /*dark green*/
+	background: #222; /*#006400; dark green*/
 }
 
 .nav-link,
@@ -16,12 +16,17 @@ body {
 	cursor: pointer;
 }
 
+.navbar-brand:hover {
+	color: #888;
+	cursor: pointer;
+}
+
 .nav-link {
 	margin-right: 1em !important;
 }
 
 .nav-link:hover {
-	color: #000;
+	color: #888;
 }
 
 .navbar-collapse {
@@ -100,6 +105,7 @@ body {
 	font-weight: 700;
 	margin-bottom: 20px;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .features img {
@@ -107,23 +113,34 @@ body {
 	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	margin-bottom: 16px;
+	max-width: 500px;
+	width: 100%;
+	height: 70%;
 }
 
-.features .form-control,
-.features input {
-	border-radius: 0;
+/*--- content for other pages ---*/
+
+.content {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
 }
 
-.features .btn {
-	background-color: #589b37;
-	border: 1px solid #589b37;
-	color: #fff;
-	margin-top: 20px;
+.content-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
 }
 
-.features .btn:hover {
-	background-color: #333;
-	border: 1px solid #333;
+.content img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+	max-width: 500px;
+	width: 100%;
 }
 
 /*--- footer ---*/
@@ -131,12 +148,12 @@ body {
 .page-footer {
 	background-color: #222;
 	color: #ccc;
-	padding: 60px 0 30px;
+	padding: 20px 0 10px;
 }
 
 .footer-copyright {
 	color: #666;
-	padding: 40px 0;
+	padding: 10px 0;
 }
 
 /*--- media queries ---*/
