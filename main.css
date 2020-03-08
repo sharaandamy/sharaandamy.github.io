@@ -134,6 +134,14 @@ body {
 	text-transform: uppercase;
 }
 
+.content-subtitle {
+	color: #333;
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
 .content img {
 	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
@@ -141,6 +149,16 @@ body {
 	margin-bottom: 16px;
 	max-width: 500px;
 	width: 100%;
+}
+
+.content-link {
+	color: #333;
+	cursor: pointer;
+	margin-right: 1em !important;
+}
+
+.content-link:hover {
+	color: #888;
 }
 
 /*--- footer ---*/
